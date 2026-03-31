@@ -1,40 +1,71 @@
-Nashville Housing Market Analysis
-Project Overview
-This repository contains a comprehensive data analysis project focused on the Nashville housing market. Using Power BI, I transformed raw real estate data into a structured format to uncover critical trends in property valuations, sales cycles, and regional market growth. This project demonstrates end-to-end data pipeline management, from initial cleaning to advanced visualization.
+🏡 Nashville Housing Market Analysis (SQL + Power BI)
+📌 Project Overview
 
-Key Technical Achievements
-Data Transformation & ETL: Utilized Power Query to clean and standardize messy datasets, including splitting addresses, correcting inconsistent date formats, and handling null values in property records.
+This project presents an end-to-end data analysis pipeline on the Nashville housing dataset. It demonstrates strong capabilities in data cleaning, transformation, advanced SQL analytics, and business intelligence visualization using Power BI.
 
-Calculated Insights (DAX): Developed custom measures to calculate Year-over-Year (YoY) price changes, average land value per neighborhood, and total sales volume.
+The objective was to convert raw, inconsistent real estate data into meaningful insights that help understand pricing trends, sales performance, and location-based market behavior.
 
-Dynamic Data Modeling: Built a relationship-driven model to enable seamless filtering across various dimensions such as land use, sale date, and neighborhood.
+🚀 Key Highlights
+🔹 Data Cleaning & Preparation (SQL Server)
+Removed duplicates using CTE + ROW_NUMBER()
+Handled NULL values and dropped irrelevant columns
+Standardized date formats and numeric fields
+Cleaned and trimmed text columns
+Validated and removed unrealistic sale prices
+🔹 Advanced SQL Techniques
+Window Functions (RANK, Running Totals)
+CTEs (Common Table Expressions) for structured queries
+Subqueries for business insights
+Case Statements for price categorization
+Aggregations (SUM, AVG, MAX, MIN)
+Indexing for performance optimization
+Created reusable Views for reporting
+🔹 Business Insights Generated
+Identification of high-value properties
+Yearly sales trends and price growth
+City-wise property performance
+Classification of properties into:
+Low Value
+Mid Value
+High Value
+🔹 Power BI Dashboard
+Interactive dashboard for:
+Sales trends over time
+City-level price comparison
+Property distribution analysis
+Clean and professional visual storytelling
 
-Interactive Visualization: Designed a high-impact dashboard with drill-through capabilities, allowing users to move from high-level market summaries to individual property details.
+🛠️ Tools & Technologies
+SQL Server
+Power BI
+Excel (Data Source)
+Power Query (ETL)
 
-Dashboard Highlights
-Sales Trend Analysis: Identifying peak seasons for real estate activity in the Nashville area.
+📂 Project Structure\
+📁 Nashville-Housing-Analysis
+│-- 📄 NashvilleHousing.sql   # Data Cleaning + Analysis Queries
+│-- 📊 Nashville_Analysis.pbix # Power BI Dashboard
+│-- 📄 README.md              # Project Documentation
 
-Geographic Insights: Heat maps and charts showcasing the most expensive vs. most affordable neighborhoods.
+📈 Key Outcomes
+Improved data quality by removing inconsistencies and duplicates
+Enabled faster queries using indexing
+Delivered actionable insights for real estate decision-making
+Built a professional Power BI dashboard for stakeholders
 
-Property Metrics: A deep dive into how acreage and building age correlate with final sale prices.
+💼 Why This Project Matters 
 
-Technologies Used
-Power BI Desktop: Dashboard design and DAX modeling.
+This project demonstrates:
 
-Power Query: Data extraction, cleaning, and transformation.
+Strong SQL fundamentals + advanced querying skills
+Real-world data cleaning and ETL experience
+Ability to convert raw data into business insights
+Hands-on experience with Power BI dashboards
+Understanding of data-driven decision making
 
-SQL: Initial data exploration and profiling.
+📬 Contact
 
-How to Interact with the Project
-Download the Nashville_Analysis.pbix file.
+If you’d like to discuss this project or opportunities in Data Analytics, feel free to connect!
 
-Open the file in Power BI Desktop.
-
-Explore the interactive filters to see how different variables impact the Nashville housing market.
-
-Contact Information
-LinkedIn: https://www.linkedin.com/in/venkateshmetan/
-
-Portfolio: https://venkateshmtn.github.io/data-analyst-portfolio/
-
-Email: venkateshmtn@gmail.com
+Linkedin-https://www.linkedin.com/in/venkateshmetan/
+Email-venkaeshmtn@gmail.com
